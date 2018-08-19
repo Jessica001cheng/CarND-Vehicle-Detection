@@ -125,6 +125,7 @@ thresholded heatmap of test images. The false position are removed well.
 
 2. then used `scipy.ndimage.measurements.label()` to identify individual blobs in the heatmap.  I then assumed each blob corresponded to a vehicle.  I constructed bounding boxes to cover the area of each blob detected. Below is the label and bounding boxes of test images.
 ![alt text][image11]
+
 bounding boxes:
 ![alt text][image12]
 
